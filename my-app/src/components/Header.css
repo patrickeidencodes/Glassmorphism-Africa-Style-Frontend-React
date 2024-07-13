@@ -1,0 +1,182 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+}
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+}
+.container2 {
+    width: 80%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.navbarContainer {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.name {
+    width: 50%;
+
+}
+.name h1 {
+    color: white;
+}
+.name h4 {
+    color: white;
+    font-size: 14px;
+}
+.name span {
+    color: green;
+}
+.blattContainer {
+    display: flex;
+}
+
+.blattContainer2 {
+    display: flex;
+    width: 50%;
+}
+.blatt1 {
+    background-image: url("../assets/blatt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar h4 {
+    color: white;
+    font-weight: 100;  
+}
+.navbar h4:hover {
+    color: white;
+    font-weight: bold;  
+    cursor: pointer;
+}
+
+.trips {
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    transform: translateY(360px);
+    left: 21%;
+}
+.trips h3 {
+    color: white;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.afri {
+    margin-top: 350px;
+    margin-left: 45%;
+}
+.afri h1 {
+    font-size: 180px; 
+}
+.forest {
+
+    margin-left:14%;
+}
+.forest h1 {
+
+}
+.dec {
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    transform: translateY(760px);
+    left: 7%;
+    width: 25%;
+    max-width: 470px;
+}
+.dec h3{
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.can {
+    position: absolute;
+    color: white;
+    margin-left: 40%;
+    margin-top: 370px;
+}
+.can h1 {
+    font-size: 180px; 
+    text-transform: uppercase;
+}
+.learn {
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    transform: translateY(860px);
+    left: 7%;
+    width: 25%;
+    max-width: 470px;
+}
+.learn h3 {
+    color: white;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+.box {
+    /* this will do the trick */
+    -webkit-mask:
+      linear-gradient(#000 0 0),
+      linear-gradient(#000 0 0);
+    -webkit-mask-clip: text, padding-box;
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    /**/
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(40px);
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 20px;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.image {
+    mask-image: url("../assets/blatt.png");
+    background-size: cover;
+    width: 60px;
+    height: 100px;
+    z-index: 1;
+    position: absolute;
+}
+.image2 {
+    width: 60px;
+    height: 100px;
+    z-index: 1;
+    position: absolute;
+}
